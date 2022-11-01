@@ -1,7 +1,5 @@
 # Lost In Sound
 
-![alt text](./image.png)
-
 Lost In Sound is a music game developped in c++ during a 48 hours game jam.
 
 You play as billy, a particle lost in space, and your goal is to find its way back to its main galaxy.
@@ -29,3 +27,5 @@ Then you simply have to execute `compiler.ps1`. The compiler creates the executa
 ### With any other versions ###
 
 To recompile the game with your version of `g++`, you need to recompile [SFML](https://www.sfml-dev.org/tutorials/2.0/compile-with-cmake.php) and execute `compiler.ps1`. And Voila your game is up to date with your version of `g++`.
+
+![alt text](./image.png)
