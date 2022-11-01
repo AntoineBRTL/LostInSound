@@ -1,0 +1,33 @@
+#pragma once
+
+#include <algorithm>
+#include <cmath>
+#include <cstring>
+#include <complex>
+#include <fstream>
+#include <iostream>
+#include <numeric>
+#include <list>
+#include <stdlib.h>
+#include <SFML/Graphics.hpp>
+#include <SFML/System.hpp>
+#include <string>
+#include <valarray>
+#include <vector>
+#include <Windows.h>
+
+#include "AudioFile.h"
+#include "WavToImage.hpp"
+#include "Vector2d.hpp"
+#include "Object.hpp"
+#include "Entity.hpp"
+#include "ChoiceCircle.hpp"
+#include "Updater.hpp"
+#include "Renderer.hpp"
+#include "Player.hpp"
+#include "Portal.hpp"
+#include "PortalManager.hpp"
+#include "Level.hpp"
+#include "Input.hpp"
+#include "WindowEngine.hpp"
+#include "Note.hpp"
