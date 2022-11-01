@@ -22,7 +22,8 @@ The game is ONLY made for Windows.
 ### With GCC 11.2.0 ###
 
 To recompile the game you will need `g++ 11.2.0` and [SFML](https://www.sfml-dev.org/) compiled for this same version.
-Then, execute using powershell the following commands : 
+Then, execute using powershell the following command : 
+
 `g++ ./src/*.cpp -o bin/LostInSound.exe -I include -I src -L lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lwinmm;`
 
 ### With any other versions ###
