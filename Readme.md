@@ -1,5 +1,7 @@
 # Lost In Sound
 
+![alt text](./demo.png)
+
 Lost In Sound is a music game developped in c++ during a 48 hours game jam.
 
 You play as billy, a particle lost in space, and your goal is to find its way back to its main galaxy.
