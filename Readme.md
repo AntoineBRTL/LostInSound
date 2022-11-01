@@ -13,16 +13,16 @@ Control the particle using ZQSD.
 
 The game is ONLY made for Windows.
 
-1) Download this repository, it can be done using `git clone https://github.com/AntoineBRTL/LostInSound.git`.
-2) Execute `launcher.bat` or open a cmd instance from the root directory and execute `.\bin\LostInSound.exe`.
-3) May be the sound with you !
+1. Download this repository, it can be done using `git clone https://github.com/AntoineBRTL/LostInSound.git`.
+2. Execute `launcher.bat` or open a cmd instance from the root directory and execute `.\bin\LostInSound.exe`.
+3. May be the sound with you !
 
 # Recompile the game #
 
 ### With GCC 11.2.0 ###
 
 To recompile the game you will need `g++ 11.2.0` and [SFML](https://www.sfml-dev.org/) compiled for this same version.
-Then you simply have to execute `compiler.ps1`. The compiler creates the executable on `./bin`, but you have to execute it from the root directory as well.
+Then, execute using powershell the following commands : `g++ ./src/*.cpp -o bin/LostInSound.exe -I include -I src -L lib -lsfml-graphics -lsfml-window -lsfml-system -lsfml-audio -lwinmm;`
 
 ### With any other versions ###
 
