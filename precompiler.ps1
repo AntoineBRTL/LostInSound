@@ -1,1 +1,0 @@
-g++ -x c++-header -o ./src/precompile.h.gch -c ./src/precompile.cpp -I include -I src
