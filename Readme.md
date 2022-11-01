@@ -1,6 +1,6 @@
 # Lost In Sound
 
-![alt text](./demo.png)
+![alt text](./image.png)
 
 Lost In Sound is a music game developped in c++ during a 48 hours game jam.
 
